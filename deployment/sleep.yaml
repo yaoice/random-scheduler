@@ -15,6 +15,6 @@ spec:
       schedulerName: random-scheduler
       containers:
       - name: sleep
-        image: tutum/curl
+        image: busybox
         command: ["/bin/sleep","infinity"]
         imagePullPolicy: IfNotPresent
